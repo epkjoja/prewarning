@@ -1,0 +1,5274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StartList xmlns="http://www.orienteering.org/datastandard/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           iofVersion="3.0" createTime="2023-08-10T22:47:25" creator="MeOS 3.9.1437 (U1)">
+    <Event>
+        <Id></Id>
+        <Name>Exempel (Stafett)</Name>
+        <StartTime>
+            <Date>2014-01-02</Date>
+            <Time>09:00:00+01:00</Time>
+        </StartTime>
+    </Event>
+    <ClassStart>
+        <Class>
+            <Id>1</Id>
+            <Name>Lång</Name>
+        </Class>
+        <TeamStart>
+            <EntryId type="MeOS">1</EntryId>
+            <Name>Lag Eckermark</Name>
+            <Organisation>
+                <Id>350</Id>
+                <Name>FK Snapphanarna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>1</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Wikström</Family>
+                        <Given>Linus</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>1</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>500161</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Karlsson</Family>
+                        <Given>Bengt-Åke</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>1</BibNumber>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>500243</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Månsson</Family>
+                        <Given>Dennis</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>1</BibNumber>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>500318</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">2</EntryId>
+            <Name>Lag Sågby</Name>
+            <Organisation>
+                <Id>220</Id>
+                <Name>Krokeks OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>2</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Sundqvist</Family>
+                        <Given>Jessica</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>2</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>500455</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ernberg</Family>
+                        <Given>Gustav</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>2</BibNumber>
+                    <StartTime>2014-01-02T11:03:29+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>500490</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Camitz</Family>
+                        <Given>Arvid</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>2</BibNumber>
+                    <StartTime>2014-01-02T12:25:27+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>500609</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">3</EntryId>
+            <Name>Lag Karlsson</Name>
+            <Organisation>
+                <Id>181</Id>
+                <Name>IFK Kiruna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>3</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Abrahamsson</Family>
+                        <Given>Set</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>3</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>500744</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>5262</Id>
+                    <Name>
+                        <Family>Johnsson</Family>
+                        <Given>Lena</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>316</Id>
+                    <Name>Rånäs OK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>3</BibNumber>
+                    <StartTime>2014-01-02T11:06:18+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>500851</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Granefelt</Family>
+                        <Given>Berit</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>3</BibNumber>
+                    <StartTime>2014-01-02T12:20:25+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>500875</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">4</EntryId>
+            <Name>Lag Nilsson</Name>
+            <Organisation>
+                <Id>311</Id>
+                <Name>OK Roto</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>4</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Nannesson</Family>
+                        <Given>Martin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>4</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>501057</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Gretas</Family>
+                        <Given>Jonas</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>4</BibNumber>
+                    <StartTime>2014-01-02T11:11:43+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>501097</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ahmad</Family>
+                        <Given>Kristina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>4</BibNumber>
+                    <StartTime>2014-01-02T12:18:00+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>501254</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">5</EntryId>
+            <Name>Lag Andersson</Name>
+            <Organisation>
+                <Id>220</Id>
+                <Name>Krokeks OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>5</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Bois</Family>
+                        <Given>Hans-Erik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>5</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>501309</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Roos</Family>
+                        <Given>Anja</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>5</BibNumber>
+                    <StartTime>2014-01-02T11:11:51+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>501401</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Jansson</Family>
+                        <Given>Catharina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>5</BibNumber>
+                    <StartTime>2014-01-02T12:22:17+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>501498</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">6</EntryId>
+            <Name>Lag Höög</Name>
+            <Organisation>
+                <Id>181</Id>
+                <Name>IFK Kiruna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>6</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Elehed</Family>
+                        <Given>Ingela</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>6</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>501603</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Vrede</Family>
+                        <Given>Anneli</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>6</BibNumber>
+                    <StartTime>2014-01-02T11:15:41+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>501672</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>29740</Id>
+                    <Name>
+                        <Family>Lindkvist</Family>
+                        <Given>Ida</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>73</Id>
+                    <Name>OK Denseln</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>6</BibNumber>
+                    <StartTime>2014-01-02T12:41:39+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>501842</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">7</EntryId>
+            <Name>Lag Nöjd</Name>
+            <Organisation>
+                <Id>389</Id>
+                <Name>Tandsbyns IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>7</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Fredriksson</Family>
+                        <Given>Carolina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>7</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>501862</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>16983</Id>
+                    <Name>
+                        <Family>Eldeklint</Family>
+                        <Given>Åsa</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>249</Id>
+                    <Name>Lugnviks IF</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>7</BibNumber>
+                    <StartTime>2014-01-02T11:20:24+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>501979</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Jacobsson</Family>
+                        <Given>Lisa</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>7</BibNumber>
+                    <StartTime>2014-01-02T12:28:22+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>502039</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">8</EntryId>
+            <Name>Lag Westher</Name>
+            <Organisation>
+                <Id>376</Id>
+                <Name>IK Surd</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>8</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Forsberg</Family>
+                        <Given>Ann</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>8</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>502167</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Gustafson</Family>
+                        <Given>Robin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>8</BibNumber>
+                    <StartTime>2014-01-02T11:03:43+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>502297</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Jönsson</Family>
+                        <Given>Elin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>8</BibNumber>
+                    <StartTime>2014-01-02T12:10:02+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>502366</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">9</EntryId>
+            <Name>Lag Jakobsson</Name>
+            <Organisation>
+                <Id>233</Id>
+                <Name>Laxå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>9</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Björklund</Family>
+                        <Given>Jonny</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>9</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>502501</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>24485</Id>
+                    <Name>
+                        <Family>Henriksson</Family>
+                        <Given>Ulf</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>556</Id>
+                    <Name>Korsnäs IF OK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>9</BibNumber>
+                    <StartTime>2014-01-02T11:12:56+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>502524</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Westberg</Family>
+                        <Given>Mathias</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>9</BibNumber>
+                    <StartTime>2014-01-02T12:23:46+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>502703</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">10</EntryId>
+            <Name>Lag Andersson</Name>
+            <Organisation>
+                <Id>64</Id>
+                <Name>Burseryds IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>10</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Håll</Family>
+                        <Given>Klas-Erik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>10</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>502784</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>13470</Id>
+                    <Name>
+                        <Family>Lindström</Family>
+                        <Given>Kristina</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>310</Id>
+                    <Name>Ronneby OK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>10</BibNumber>
+                    <StartTime>2014-01-02T11:11:41+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>502903</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Emanuelsson</Family>
+                        <Given>Lena</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>10</BibNumber>
+                    <StartTime>2014-01-02T12:20:29+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>502975</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">11</EntryId>
+            <Name>Lag Adamsson</Name>
+            <Organisation>
+                <Id>38</Id>
+                <Name>Ankarsrums OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>11</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Dörper</Family>
+                        <Given>Hilma</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>11</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>503087</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Berggren</Family>
+                        <Given>Stefan</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>11</BibNumber>
+                    <StartTime>2014-01-02T11:09:38+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>503121</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Svensson</Family>
+                        <Given>Felix</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>11</BibNumber>
+                    <StartTime>2014-01-02T12:25:09+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>503273</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">12</EntryId>
+            <Name>Lag Engström</Name>
+            <Organisation>
+                <Id>194</Id>
+                <Name>K 3 IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>12</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Elfving</Family>
+                        <Given>Lina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>12</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>503322</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Holm</Family>
+                        <Given>Reine</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>12</BibNumber>
+                    <StartTime>2014-01-02T11:18:00+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>503475</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>12170</Id>
+                    <Name>
+                        <Family>Wenklo</Family>
+                        <Given>Henrik</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>224</Id>
+                    <Name>Kungälvs OK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>12</BibNumber>
+                    <StartTime>2014-01-02T12:34:42+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>503589</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">13</EntryId>
+            <Name>Lag Moqvist</Name>
+            <Organisation>
+                <Id>298</Id>
+                <Name>Robertsfors IK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>13</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ernstsson</Family>
+                        <Given>Patrik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>13</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>503649</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Westling</Family>
+                        <Given>Anna</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>13</BibNumber>
+                    <StartTime>2014-01-02T11:23:29+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>503745</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Eriksson</Family>
+                        <Given>Lars</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>13</BibNumber>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>503853</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">14</EntryId>
+            <Name>Lag Mattsson</Name>
+            <Organisation>
+                <Id>246</Id>
+                <Name>Ljusne-Ala OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>14</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Oldaeus</Family>
+                        <Given>Kent</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>14</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>503904</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Forsman</Family>
+                        <Given>Zini</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>14</BibNumber>
+                    <StartTime>2014-01-02T11:10:17+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>503981</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Remäng</Family>
+                        <Given>Dick</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>14</BibNumber>
+                    <StartTime>2014-01-02T12:30:17+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>504144</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">15</EntryId>
+            <Name>Lag Sjöholm</Name>
+            <Organisation>
+                <Id>90</Id>
+                <Name>Gamleby OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>15</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Kindlundh</Family>
+                        <Given>David</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>15</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>504186</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Munksten</Family>
+                        <Given>VILGOT</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>15</BibNumber>
+                    <StartTime>2014-01-02T11:04:00+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>504269</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Johansson</Family>
+                        <Given>Rolf</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>15</BibNumber>
+                    <StartTime>2014-01-02T12:21:46+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>504387</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">16</EntryId>
+            <Name>Lag Gustafsson</Name>
+            <Organisation>
+                <Id>168</Id>
+                <Name>Häverödals SK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>16</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Andersson</Family>
+                        <Given>Leif</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>16</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>504526</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Asgeirsdottir</Family>
+                        <Given>Inez</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>16</BibNumber>
+                    <StartTime>2014-01-02T11:19:18+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>504586</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Walheim</Family>
+                        <Given>Bo</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>16</BibNumber>
+                    <StartTime>2014-01-02T12:22:47+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>504704</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">17</EntryId>
+            <Name>Lag Engström</Name>
+            <Organisation>
+                <Id>298</Id>
+                <Name>Robertsfors IK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>17</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Åberg</Family>
+                        <Given>Anders</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>17</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>504780</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Halonen</Family>
+                        <Given>Carl</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>17</BibNumber>
+                    <StartTime>2014-01-02T11:06:11+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>504889</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Widenbring</Family>
+                        <Given>Gunnar</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>17</BibNumber>
+                    <StartTime>2014-01-02T12:21:34+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>505044</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">18</EntryId>
+            <Name>Lag Andersson</Name>
+            <Organisation>
+                <Id>259</Id>
+                <Name>OK Mangen</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>18</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Strand</Family>
+                        <Given>Gunilla</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>18</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>505112</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ljung</Family>
+                        <Given>Lina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>18</BibNumber>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>505231</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Persson</Family>
+                        <Given>Zarah</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>18</BibNumber>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>505304</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">19</EntryId>
+            <Name>Lag Persson</Name>
+            <Organisation>
+                <Id>103</Id>
+                <Name>Grangärde OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>19</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Södervall</Family>
+                        <Given>Åke</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>19</BibNumber>
+                    <StartTime>2014-01-02T10:00:00+01:00</StartTime>
+                    <Course>
+                        <Id>1</Id>
+                        <Name>Bana 4</Name>
+                        <Length>7370</Length>
+                    </Course>
+                    <ControlCard>505377</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Swärdh</Family>
+                        <Given>Jörgen</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>19</BibNumber>
+                    <StartTime>2014-01-02T11:24:07+01:00</StartTime>
+                    <Course>
+                        <Id>2</Id>
+                        <Name>Bana 5</Name>
+                        <Length>4850</Length>
+                    </Course>
+                    <ControlCard>505437</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Stegard</Family>
+                        <Given>Christina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>19</BibNumber>
+                    <StartTime>2014-01-02T12:31:51+01:00</StartTime>
+                    <Course>
+                        <Id>3</Id>
+                        <Name>Bana 6</Name>
+                        <Length>6490</Length>
+                    </Course>
+                    <ControlCard>505603</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+    </ClassStart>
+    <ClassStart>
+        <Class>
+            <Id>2</Id>
+            <Name>Medel</Name>
+        </Class>
+        <TeamStart>
+            <EntryId type="MeOS">27</EntryId>
+            <Name>Lag Ahlmén</Name>
+            <Organisation>
+                <Id>272</Id>
+                <Name>Niilivaara IS</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Petersson</Family>
+                        <Given>Sofia</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>507741</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Zachrisson</Family>
+                        <Given>Simon</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:01:48+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>507782</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Herman</Family>
+                        <Given>Anna-Karin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:46:11+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>507948</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">33</EntryId>
+            <Name>Lag Brottar</Name>
+            <Organisation>
+                <Id>90</Id>
+                <Name>Gamleby OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Bromark</Family>
+                        <Given>Annika</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>509456</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Sundström</Family>
+                        <Given>Ebba</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:02:03+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>509507</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Hedlöf</Family>
+                        <Given>Roger</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:32:45+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>509638</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">35</EntryId>
+            <Name>Lag Eliasson</Name>
+            <Organisation>
+                <Id>233</Id>
+                <Name>Laxå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Vagman</Family>
+                        <Given>Marianne</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>510024</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Johansson</Family>
+                        <Given>Ludvig</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:27:10+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>510142</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>38584</Id>
+                    <Name>
+                        <Family>Johansson</Family>
+                        <Given>Nina</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>596</Id>
+                    <Name>Emmaboda Verda OK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:13:13+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>510263</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">25</EntryId>
+            <Name>Lag Forsén</Name>
+            <Organisation>
+                <Id>181</Id>
+                <Name>IFK Kiruna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Govik</Family>
+                        <Given>Marja</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>507105</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Kinberger</Family>
+                        <Given>David</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:59:46+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>507216</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Tegström</Family>
+                        <Given>Aina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:14:47+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>507353</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">26</EntryId>
+            <Name>Lag Grönberg</Name>
+            <Organisation>
+                <Id>25</Id>
+                <Name>Degerfors OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Alheim</Family>
+                        <Given>Inger</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>507404</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Farbrot</Family>
+                        <Given>Ulrika</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:36:10+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>507495</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Wigren</Family>
+                        <Given>Carina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:25:59+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>507614</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">34</EntryId>
+            <Name>Lag Jonasson</Name>
+            <Organisation>
+                <Id>285</Id>
+                <Name>Nyköpings OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Rosendahl</Family>
+                        <Given>Julia</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>509716</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lundh</Family>
+                        <Given>Jonny</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:01:37+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>509889</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Malmgård</Family>
+                        <Given>Stig</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>509936</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">28</EntryId>
+            <Name>Lag Järhed</Name>
+            <Organisation>
+                <Id>129</Id>
+                <Name>Hedesunda IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Andersson</Family>
+                        <Given>Karl-Erik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>507994</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Olsson</Family>
+                        <Given>Christer</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:00:32+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>508137</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Steén</Family>
+                        <Given>Annette</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:14:08+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>508160</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">23</EntryId>
+            <Name>Lag Lundberg</Name>
+            <Organisation>
+                <Id>337</Id>
+                <Name>Skellefteå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Johnsson</Family>
+                        <Given>Hans</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>506542</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Karlsson</Family>
+                        <Given>Mats</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:37:35+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>506672</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Simonsson</Family>
+                        <Given>Lars</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:24:53+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>506709</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">32</EntryId>
+            <Name>Lag Matsson</Name>
+            <Organisation>
+                <Id>181</Id>
+                <Name>IFK Kiruna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Josefsson</Family>
+                        <Given>Torbjörn</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>509197</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Bergqvist</Family>
+                        <Given>Irma</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:37:51+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>509293</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Eriksson</Family>
+                        <Given>Ann-Marie</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:13:20+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>509326</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">24</EntryId>
+            <Name>Lag Pettersson</Name>
+            <Organisation>
+                <Id>207</Id>
+                <Name>Kjula IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Modig</Family>
+                        <Given>Kristin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>506798</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Eriksson</Family>
+                        <Given>Anders</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:13:35+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>506974</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Emmoth Andersson</Family>
+                        <Given>Jonas</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:44:10+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>507024</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">30</EntryId>
+            <Name>Lag Ring</Name>
+            <Organisation>
+                <Id>64</Id>
+                <Name>Burseryds IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Casselsjö</Family>
+                        <Given>Maria</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>508562</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Andersson</Family>
+                        <Given>Mona</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:11:23+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>508687</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Håkansson</Family>
+                        <Given>Elisabet</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:58:07+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>508810</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">29</EntryId>
+            <Name>Lag Strandberg</Name>
+            <Organisation>
+                <Id>337</Id>
+                <Name>Skellefteå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Hjalmarsson</Family>
+                        <Given>Tobias</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>508274</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Evertsson</Family>
+                        <Given>Robert</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:38:42+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>508396</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Hale</Family>
+                        <Given>Martin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:22:56+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>508451</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">31</EntryId>
+            <Name>Lag Söderberg</Name>
+            <Organisation>
+                <Id>337</Id>
+                <Name>Skellefteå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Aguirre</Family>
+                        <Given>Anton</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>508848</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Sagvolden</Family>
+                        <Given>Elina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:04:02+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>508995</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Leander</Family>
+                        <Given>Oskar</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:04:36+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>509107</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">20</EntryId>
+            <Name>Lag From</Name>
+            <Organisation>
+                <Id>194</Id>
+                <Name>K 3 IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>20</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Hammar</Family>
+                        <Given>Magnus</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>20</BibNumber>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>505635</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lindfors</Family>
+                        <Given>Anton</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>20</BibNumber>
+                    <StartTime>2014-01-02T11:22:02+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>505793</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Sundqvist</Family>
+                        <Given>Emmy</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>20</BibNumber>
+                    <StartTime>2014-01-02T13:04:08+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>505836</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">21</EntryId>
+            <Name>Lag Claesson</Name>
+            <Organisation>
+                <Id>298</Id>
+                <Name>Robertsfors IK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>21</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Håkansson</Family>
+                        <Given>Ronnie</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>21</BibNumber>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>505984</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Pruth</Family>
+                        <Given>Allan</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>21</BibNumber>
+                    <StartTime>2014-01-02T11:55:20+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>506043</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Fredriksson</Family>
+                        <Given>Magnus</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>21</BibNumber>
+                    <StartTime>2014-01-02T13:40:57+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>506129</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">22</EntryId>
+            <Name>Lag Schortz</Name>
+            <Organisation>
+                <Id>246</Id>
+                <Name>Ljusne-Ala OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <BibNumber>22</BibNumber>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Axelsson</Family>
+                        <Given>Malin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <BibNumber>22</BibNumber>
+                    <StartTime>2014-01-02T10:20:00+01:00</StartTime>
+                    <Course>
+                        <Id>4</Id>
+                        <Name>Bana 7</Name>
+                        <Length>12100</Length>
+                    </Course>
+                    <ControlCard>506211</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ribbhagen</Family>
+                        <Given>Anna</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <BibNumber>22</BibNumber>
+                    <StartTime>2014-01-02T12:05:25+01:00</StartTime>
+                    <Course>
+                        <Id>5</Id>
+                        <Name>Bana 8</Name>
+                        <Length>6080</Length>
+                    </Course>
+                    <ControlCard>506310</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Fläck</Family>
+                        <Given>Arthur</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <BibNumber>22</BibNumber>
+                    <StartTime>2014-01-02T13:12:34+01:00</StartTime>
+                    <Course>
+                        <Id>6</Id>
+                        <Name>Bana 9</Name>
+                        <Length>12910</Length>
+                    </Course>
+                    <ControlCard>506465</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+    </ClassStart>
+    <ClassStart>
+        <Class>
+            <Id>3</Id>
+            <Name>Kort</Name>
+        </Class>
+        <TeamStart>
+            <EntryId type="MeOS">38</EntryId>
+            <Name>Lag Bornetun</Name>
+            <Organisation>
+                <Id>389</Id>
+                <Name>Tandsbyns IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Sundqvist</Family>
+                        <Given>Olle</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>510897</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Olmårs</Family>
+                        <Given>Kari</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:55:03+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>511038</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Arvidsson</Family>
+                        <Given>Lars</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:19:43+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>511095</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">42</EntryId>
+            <Name>Lag Eriksson</Name>
+            <Organisation>
+                <Id>233</Id>
+                <Name>Laxå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Bergström</Family>
+                        <Given>Anette</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>512106</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Hellberg</Family>
+                        <Given>Olle</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:00:14+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>512170</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lampinen</Family>
+                        <Given>Emma</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:23:31+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>512261</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">41</EntryId>
+            <Name>Lag Eriksson Rehnman</Name>
+            <Organisation>
+                <Id>402</Id>
+                <Name>OK Tranan</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Carlström</Family>
+                        <Given>Thomas</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>511746</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Leknes</Family>
+                        <Given>Linus</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:11:10+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>511872</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Kallhed</Family>
+                        <Given>Agusta</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:27:14+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>512004</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">52</EntryId>
+            <Name>Lag Hermansson</Name>
+            <Organisation>
+                <Id>220</Id>
+                <Name>Krokeks OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Pedersen</Family>
+                        <Given>Sanna</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>514964</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>37532</Id>
+                    <Name>
+                        <Family>Gunnarsson</Family>
+                        <Given>Anna</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>636</Id>
+                    <Name>Centrum OK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:01:28+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>515109</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Sandberg</Family>
+                        <Given>Vilma</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:34:03+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>515206</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">36</EntryId>
+            <Name>Lag Karlsson</Name>
+            <Organisation>
+                <Id>38</Id>
+                <Name>Ankarsrums OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Franzén</Family>
+                        <Given>Pia</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>510322</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Tengvald</Family>
+                        <Given>Clément</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:47:00+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>510397</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Johansson</Family>
+                        <Given>Annelie</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:19:07+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>510557</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">50</EntryId>
+            <Name>Lag Karlsson</Name>
+            <Organisation>
+                <Id>285</Id>
+                <Name>Nyköpings OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Holth Johannessen</Family>
+                        <Given>Harry</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>514428</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Emanuelsson</Family>
+                        <Given>Robin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:57:39+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>514504</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Hagströmer</Family>
+                        <Given>Solweig</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:23:10+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>514607</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">47</EntryId>
+            <Name>Lag Kers</Name>
+            <Organisation>
+                <Id>64</Id>
+                <Name>Burseryds IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Davidsson</Family>
+                        <Given>Andreas</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>513561</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Moqvist</Family>
+                        <Given>Kristina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:53:21+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>513661</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Segerbäck</Family>
+                        <Given>Sara</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:13:32+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>513755</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">40</EntryId>
+            <Name>Lag Lindstam</Name>
+            <Organisation>
+                <Id>142</Id>
+                <Name>OK Forsarna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Jansson</Family>
+                        <Given>Ida</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>511537</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Tagesson-Ritz</Family>
+                        <Given>Roland</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:52:07+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>511565</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Axelsson</Family>
+                        <Given>Jonas</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:35:02+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>511712</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">46</EntryId>
+            <Name>Lag Ljungblom</Name>
+            <Organisation>
+                <Id>38</Id>
+                <Name>Ankarsrums OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Giselsson</Family>
+                        <Given>Anna</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>513193</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Karlsson</Family>
+                        <Given>Heide</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:00:40+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>513337</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Bengtsson</Family>
+                        <Given>Marika</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:35:10+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>513395</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">37</EntryId>
+            <Name>Lag Malmqvist</Name>
+            <Organisation>
+                <Id>207</Id>
+                <Name>Kjula IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Heinrup</Family>
+                        <Given>Jenni</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>510636</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Martinsson</Family>
+                        <Given>Sten</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:58:48+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>510676</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Söderholm</Family>
+                        <Given>Henrik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:25:21+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>510833</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">45</EntryId>
+            <Name>Lag Nyström</Name>
+            <Organisation>
+                <Id>168</Id>
+                <Name>Häverödals SK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Frantz</Family>
+                        <Given>Tommy</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>512960</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>24651</Id>
+                    <Name>
+                        <Family>Svensson</Family>
+                        <Given>Petra</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>606</Id>
+                    <Name>Fredrikshofs IF Skid &amp; OK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:59:36+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>513091</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>31100</Id>
+                    <Name>
+                        <Family>Håkansson</Family>
+                        <Given>Anna</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>553</Id>
+                    <Name>OK Kolmården</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:26:06+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>513143</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">43</EntryId>
+            <Name>Lag Petersson</Name>
+            <Organisation>
+                <Id>246</Id>
+                <Name>Ljusne-Ala OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Id>31300</Id>
+                    <Name>
+                        <Family>Mårtensson</Family>
+                        <Given>Sofia</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>390</Id>
+                    <Name>Timrå SOK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>512415</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Andersson</Family>
+                        <Given>Henning</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:59:35+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>512446</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Bengtsson</Family>
+                        <Given>Henrik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:31:34+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>512557</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">44</EntryId>
+            <Name>Lag Pettersson</Name>
+            <Organisation>
+                <Id>350</Id>
+                <Name>FK Snapphanarna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Johansson</Family>
+                        <Given>Carolin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>512615</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Andersson</Family>
+                        <Given>Frida</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:04:31+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>512710</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Svensson</Family>
+                        <Given>Simone</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:26:35+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>512832</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">55</EntryId>
+            <Name>Lag Robertsson</Name>
+            <Organisation>
+                <Id>350</Id>
+                <Name>FK Snapphanarna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Id>34932</Id>
+                    <Name>
+                        <Family>Nilsson</Family>
+                        <Given>Olivia</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>294</Id>
+                    <Name>OK Pan-Kristianstad</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>515840</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Moris</Family>
+                        <Given>Bo</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:47:25+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>515976</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Carlsson</Family>
+                        <Given>Berit</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:12:34+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>516102</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">53</EntryId>
+            <Name>Lag Saras</Name>
+            <Organisation>
+                <Id>220</Id>
+                <Name>Krokeks OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Mattson</Family>
+                        <Given>Johan</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>515258</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Harrysson</Family>
+                        <Given>Bertil</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>515358</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>38106</Id>
+                    <Name>
+                        <Family>Blomkvist</Family>
+                        <Given>Jonas</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>123</Id>
+                    <Name>Hagaby GOIF</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>3</Leg>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>515489</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">39</EntryId>
+            <Name>Lag Stenqvist</Name>
+            <Organisation>
+                <Id>324</Id>
+                <Name>Sigtuna OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Olsson</Family>
+                        <Given>Emma</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>511162</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Jonsson</Family>
+                        <Given>Sandra</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:48:09+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>511333</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>AH-King</Family>
+                        <Given>Stina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:09:31+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>511355</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">51</EntryId>
+            <Name>Lag Strömberg</Name>
+            <Organisation>
+                <Id>38</Id>
+                <Name>Ankarsrums OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Gabrielsson</Family>
+                        <Given>Arvid</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>514650</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Skalberg</Family>
+                        <Given>Andreas</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:01:25+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>514745</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Sundbaum</Family>
+                        <Given>Johan</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:27:30+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>514882</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">56</EntryId>
+            <Name>Lag Strömstedt</Name>
+            <Organisation>
+                <Id>233</Id>
+                <Name>Laxå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Emilsson</Family>
+                        <Given>Eva</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>516193</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Boström</Family>
+                        <Given>Lisa</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:00:03+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>516241</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Bergman</Family>
+                        <Given>Angelica</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:23:57+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>516318</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">57</EntryId>
+            <Name>Lag Söderström</Name>
+            <Organisation>
+                <Id>51</Id>
+                <Name>Bodafors OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ericsson</Family>
+                        <Given>Peter</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>516408</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Dahlstedt</Family>
+                        <Given>Eva</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:04:09+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>516584</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Berglund</Family>
+                        <Given>Per-Anders</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:23:52+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>516640</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">48</EntryId>
+            <Name>Lag Tvedten</Name>
+            <Organisation>
+                <Id>337</Id>
+                <Name>Skellefteå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lindberg</Family>
+                        <Given>Aina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>513801</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Jigered</Family>
+                        <Given>Torkel</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:46:06+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>513894</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>22849</Id>
+                    <Name>
+                        <Family>Nilsson</Family>
+                        <Given>Maja</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>125</Id>
+                    <Name>Helsingborgs SOK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>3</Leg>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>514052</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">54</EntryId>
+            <Name>Lag Wadman</Name>
+            <Organisation>
+                <Id>25</Id>
+                <Name>Degerfors OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Id>6162</Id>
+                    <Name>
+                        <Family>Mattsson</Family>
+                        <Given>Petter</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>423</Id>
+                    <Name>IK Uven</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>515558</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Zander</Family>
+                        <Given>Markus</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:56:03+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>515628</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Torsell</Family>
+                        <Given>Anders</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:12:54+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>515800</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">49</EntryId>
+            <Name>Lag Wallgren</Name>
+            <Organisation>
+                <Id>337</Id>
+                <Name>Skellefteå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Myhlback</Family>
+                        <Given>Erik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:30:00+01:00</StartTime>
+                    <Course>
+                        <Id>7</Id>
+                        <Name>Bana 10</Name>
+                        <Length>9380</Length>
+                    </Course>
+                    <ControlCard>514120</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Berg</Family>
+                        <Given>Ethel</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T11:52:41+01:00</StartTime>
+                    <Course>
+                        <Id>8</Id>
+                        <Name>Bana 11</Name>
+                        <Length>10660</Length>
+                    </Course>
+                    <ControlCard>514185</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Eriksson</Family>
+                        <Given>Elenore</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:24:39+01:00</StartTime>
+                    <Course>
+                        <Id>9</Id>
+                        <Name>Bana 12</Name>
+                        <Length>9030</Length>
+                    </Course>
+                    <ControlCard>514305</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+    </ClassStart>
+    <ClassStart>
+        <Class>
+            <Id>4</Id>
+            <Name>Öppen</Name>
+        </Class>
+        <TeamStart>
+            <EntryId type="MeOS">59</EntryId>
+            <Name>Lag Berglund</Name>
+            <Organisation>
+                <Id>298</Id>
+                <Name>Robertsfors IK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Borg</Family>
+                        <Given>Hanna</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>517025</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Broberg-Holm</Family>
+                        <Given>Ann</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:18:02+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>517166</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Frid</Family>
+                        <Given>Agneta</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:53:24+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>517229</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">78</EntryId>
+            <Name>Lag Berzell</Name>
+            <Organisation>
+                <Id>142</Id>
+                <Name>OK Forsarna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Jern Davidsson</Family>
+                        <Given>Gunilla</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>522549</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Sonesson</Family>
+                        <Given>Arne</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:16:33+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>522664</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Persson</Family>
+                        <Given>Ella</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:58:41+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>522760</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">75</EntryId>
+            <Name>Lag Blomkvist</Name>
+            <Organisation>
+                <Id>324</Id>
+                <Name>Sigtuna OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lundin</Family>
+                        <Given>Daniel</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>521705</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lundqvist</Family>
+                        <Given>Linus</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:20:12+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>521781</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Wiig</Family>
+                        <Given>Daniel</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T14:09:27+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>521879</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">60</EntryId>
+            <Name>Lag Emlén</Name>
+            <Organisation>
+                <Id>90</Id>
+                <Name>Gamleby OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Karlsson</Family>
+                        <Given>Linus</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>517297</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Bendberg</Family>
+                        <Given>Kjell</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:27:21+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>517452</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Samuelsson</Family>
+                        <Given>Gustaf</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T14:15:44+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>517494</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">69</EntryId>
+            <Name>Lag Eronn</Name>
+            <Organisation>
+                <Id>207</Id>
+                <Name>Kjula IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Elmblad</Family>
+                        <Given>Sanna-Kaisa</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>519944</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Larsson</Family>
+                        <Given>Nils</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:26:11+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>520041</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Profors</Family>
+                        <Given>Peter</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T14:15:53+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>520151</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">66</EntryId>
+            <Name>Lag Grenholm</Name>
+            <Organisation>
+                <Id>337</Id>
+                <Name>Skellefteå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ohlin</Family>
+                        <Given>Alistair</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>519025</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Rosenblom</Family>
+                        <Given>Carl-Erik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:26:07+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>519178</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Stafström</Family>
+                        <Given>Matilda</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T14:17:29+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>519300</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">63</EntryId>
+            <Name>Lag Hedlund</Name>
+            <Organisation>
+                <Id>168</Id>
+                <Name>Häverödals SK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Hallberg</Family>
+                        <Given>Fredric</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>518164</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Karlsson</Family>
+                        <Given>Mette</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:15:54+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>518244</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Andersson</Family>
+                        <Given>Staffan</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T14:00:46+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>518407</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">73</EntryId>
+            <Name>Lag Lindén</Name>
+            <Organisation>
+                <Id>51</Id>
+                <Name>Bodafors OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Björklund</Family>
+                        <Given>Britt-Mari</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>521123</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lindström</Family>
+                        <Given>Kristin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:31:16+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>521199</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Kjellander</Family>
+                        <Given>Anna-Lena</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:54:18+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>521255</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">58</EntryId>
+            <Name>Lag Linderoth</Name>
+            <Organisation>
+                <Id>246</Id>
+                <Name>Ljusne-Ala OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Modin</Family>
+                        <Given>Jonas</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>516761</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Pansell</Family>
+                        <Given>Eva</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:31:20+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>516823</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lundh</Family>
+                        <Given>Marcus</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T14:04:55+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>516972</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">71</EntryId>
+            <Name>Lag Lundh</Name>
+            <Organisation>
+                <Id>376</Id>
+                <Name>IK Surd</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lundberg</Family>
+                        <Given>Tord</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>520468</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Rosendahl</Family>
+                        <Given>Cathrin</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:03:06+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>520628</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Andersson</Family>
+                        <Given>Gustav</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:42:45+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>520683</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">67</EntryId>
+            <Name>Lag Lyckman</Name>
+            <Organisation>
+                <Id>25</Id>
+                <Name>Degerfors OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Nordling</Family>
+                        <Given>Alma</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>519358</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Sohl</Family>
+                        <Given>Fanny</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:16:22+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>519428</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Brandt</Family>
+                        <Given>Kent</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:52:34+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>519539</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">79</EntryId>
+            <Name>Lag Magnusson</Name>
+            <Organisation>
+                <Id>220</Id>
+                <Name>Krokeks OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Åhslund</Family>
+                        <Given>Paulina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>522891</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Gegerfeldt</Family>
+                        <Given>Nils-Olov</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:16:02+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>522958</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Elofsson</Family>
+                        <Given>Karl</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:49:25+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>523022</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">64</EntryId>
+            <Name>Lag Najvik</Name>
+            <Organisation>
+                <Id>220</Id>
+                <Name>Krokeks OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Id>27580</Id>
+                    <Name>
+                        <Family>Samuelsson</Family>
+                        <Given>Britt</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>57</Id>
+                    <Name>Bredareds IF</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>518488</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>17018</Id>
+                    <Name>
+                        <Family>Möller</Family>
+                        <Given>Rasmus</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>34</Id>
+                    <Name>Arboga OK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:32:30+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>518579</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Falk</Family>
+                        <Given>Ingrid</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:55:20+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>518720</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">76</EntryId>
+            <Name>Lag Nilsson</Name>
+            <Organisation>
+                <Id>337</Id>
+                <Name>Skellefteå OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Holmgren</Family>
+                        <Given>Erik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>522006</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Litzell</Family>
+                        <Given>Katarina</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:28:33+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>522038</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lindell</Family>
+                        <Given>Mats</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:51:13+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>522197</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">62</EntryId>
+            <Name>Lag Nilsson</Name>
+            <Organisation>
+                <Id>389</Id>
+                <Name>Tandsbyns IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Norlin</Family>
+                        <Given>Simon</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>517849</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ranmalm</Family>
+                        <Given>Jan-Olof</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:07:19+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>518013</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Havela</Family>
+                        <Given>Birger</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:55:44+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>518050</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">74</EntryId>
+            <Name>Lag Nordebo</Name>
+            <Organisation>
+                <Id>90</Id>
+                <Name>Gamleby OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Einarsson</Family>
+                        <Given>Tobias</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>521387</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lidberg</Family>
+                        <Given>Oskar</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:09:54+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>521468</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Johansson</Family>
+                        <Given>Åke</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:56:51+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>521562</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">70</EntryId>
+            <Name>Lag Näslund</Name>
+            <Organisation>
+                <Id>402</Id>
+                <Name>OK Tranan</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Forsberg</Family>
+                        <Given>Johan</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>520183</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lindstén</Family>
+                        <Given>Isak</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:15:05+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>520336</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Johansson</Family>
+                        <Given>Emma</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:49:44+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>520383</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">80</EntryId>
+            <Name>Lag Olsson</Name>
+            <Organisation>
+                <Id>64</Id>
+                <Name>Burseryds IF</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Larsson</Family>
+                        <Given>Leonard</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>523162</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ottenbäck</Family>
+                        <Given>Nils</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:04:26+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>523187</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Jeppsson</Family>
+                        <Given>Fredrik</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>523298</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">77</EntryId>
+            <Name>Lag Palmgren</Name>
+            <Organisation>
+                <Id>324</Id>
+                <Name>Sigtuna OK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Olsson</Family>
+                        <Given>Oskar</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>522282</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>32890</Id>
+                    <Name>
+                        <Family>Berggren</Family>
+                        <Given>Maria</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>326</Id>
+                    <Name>OK Silvanus</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:13:47+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>522337</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Killberg</Family>
+                        <Given>Gustav</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:46:45+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>522441</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">61</EntryId>
+            <Name>Lag Posch</Name>
+            <Organisation>
+                <Id>298</Id>
+                <Name>Robertsfors IK</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Ahlbäck</Family>
+                        <Given>Thomas</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>517584</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>46082</Id>
+                    <Name>
+                        <Family>Johansson</Family>
+                        <Given>Jeanette</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>294</Id>
+                    <Name>OK Pan-Kristianstad</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:27:27+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>517734</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Klint</Family>
+                        <Given>Roger</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T14:07:07+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>517805</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">68</EntryId>
+            <Name>Lag Rosenqvist</Name>
+            <Organisation>
+                <Id>376</Id>
+                <Name>IK Surd</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lengquist</Family>
+                        <Given>Leif</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>519636</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lundgren</Family>
+                        <Given>Anneli</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:21:15+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>519722</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Id>13221</Id>
+                    <Name>
+                        <Family>Forslund</Family>
+                        <Given>Emil</Given>
+                    </Name>
+                </Person>
+                <Organisation>
+                    <Id>242</Id>
+                    <Name>Linköpings OK</Name>
+                    <Country code="SWE">Sweden</Country>
+                </Organisation>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:55:41+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>519800</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">65</EntryId>
+            <Name>Lag Skar</Name>
+            <Organisation>
+                <Id>142</Id>
+                <Name>OK Forsarna</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Joakimsson</Family>
+                        <Given>Lisa</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>518766</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Weigelt</Family>
+                        <Given>Niklas</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:11:50+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>518911</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Karlsson</Family>
+                        <Given>Wilhelm</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T13:46:18+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>518993</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+        <TeamStart>
+            <EntryId type="MeOS">72</EntryId>
+            <Name>Lag Wilhelmsson</Name>
+            <Organisation>
+                <Id>376</Id>
+                <Name>IK Surd</Name>
+                <Country code="SWE">Sweden</Country>
+            </Organisation>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Håkansson</Family>
+                        <Given>Charlotte</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>1</Leg>
+                    <StartTime>2014-01-02T10:40:00+01:00</StartTime>
+                    <Course>
+                        <Id>12</Id>
+                        <Name>Bana 15</Name>
+                        <Length>12140</Length>
+                    </Course>
+                    <ControlCard>520845</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Lindgren</Family>
+                        <Given>Per</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>2</Leg>
+                    <StartTime>2014-01-02T12:19:54+01:00</StartTime>
+                    <Course>
+                        <Id>10</Id>
+                        <Name>Bana 13</Name>
+                        <Length>12950</Length>
+                    </Course>
+                    <ControlCard>520924</ControlCard>
+                </Start>
+            </TeamMemberStart>
+            <TeamMemberStart>
+                <Person>
+                    <Name>
+                        <Family>Huhta</Family>
+                        <Given>Lena</Given>
+                    </Name>
+                </Person>
+                <Start>
+                    <Leg>3</Leg>
+                    <StartTime>2014-01-02T14:08:38+01:00</StartTime>
+                    <Course>
+                        <Id>11</Id>
+                        <Name>Bana 14</Name>
+                        <Length>10520</Length>
+                    </Course>
+                    <ControlCard>521044</ControlCard>
+                </Start>
+            </TeamMemberStart>
+        </TeamStart>
+    </ClassStart>
+</StartList>
