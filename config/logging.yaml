@@ -25,14 +25,20 @@ loggers:
   Config:
     level: NOTSET
   Sound:
-    level: NOTSET
+    level: DEBUG
   OlaMySql:
+    level: NOTSET
+  MeosInfoService:
     level: NOTSET
   PunchSourceOlaMySql:
     level: NOTSET
   PunchSourceOlresultatSe:
     level: NOTSET
   StartListSourceFile:
+    level: NOTSET
+  StartListSourceUrl:
+    level: NOTSET
+  StartListSourceMeos:
     level: NOTSET
   StartListSourceOlaMySql:
     level: NOTSET

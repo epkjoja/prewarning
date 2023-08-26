@@ -1,59 +1,25 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import requests
-from pathlib import Path
+from threading import Thread
+from time import sleep
 from typing import List, Dict
 from xml.etree import ElementTree
-from zipfile import ZipFile
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
+from imurl import URL
 
 from natsort import natsorted
-from watchdog.events import LoggingEventHandler
-from watchdog.observers import Observer
-import wx
 
 from utils.config import ConfigSectionDefinition, ConfigOptionDefinition, Config
-from utils.config_definitions import ConfigSectionEnableType, ConfigVerifierDefinition, ConfigSectionOptionDefinition, \
-    ConfigSelectorDefinition, SelectionResult, SelectionData, VerificationResult
-from utils.config_selection import select_file
-from utils.sound import Sound, SoundFolder, verify_sound
+from utils.config_definitions import ConfigSectionEnableType
 from validators.url_validators import is_url
 from ._base import _StartListSourceBase
 
 
 LOGGER_NAME = 'StartListSourceUrl'
 
-DEFAULT_START_LIST_FILE_FOLDER = Path(__file__).resolve().parent.parent.absolute()
-
-
-def _select_start_list_file(parent: wx.Window, prev_file: str or Path = None) -> str or False:
-
-    if prev_file is None:
-        default_dir = DEFAULT_START_LIST_FILE_FOLDER.as_posix()
-    elif issubclass(type(prev_file), Path):
-        default_dir = prev_file.resolve().parent.absolute().as_posix()
-    else:
-        default_dir = Path(prev_file).resolve().parent.absolute().as_posix()
-
-    selected = select_file(parent=parent,
-                           message='Select a Start List File',
-                           default_dir=default_dir,
-                           wildcard='IOFv3 Start List files (*.xml,*.zip)|*.xml;*.zip')
-    if selected is not None:
-        result = SelectionResult()
-
-        selected_path = Path(selected)
-        try:
-            selected_path = selected_path.relative_to(DEFAULT_START_LIST_FILE_FOLDER)
-            selected_str = selected_path.as_posix()
-        except ValueError:
-            selected_str = selected
-
-        result.add_value(SelectionData(selected_str, selected_str))
-
-        return result
-    else:
-        return False
+DEFAULT_RESPONSE_ENCODING = 'utf-8'
 
 
 def _get_data(element, selector, ns):
@@ -64,103 +30,9 @@ def _get_data(element, selector, ns):
         return None
 
 
-def _read_start_list(start_list_file: str):
-    if start_list_file.lower().endswith('.zip'):
-        archive = ZipFile(start_list_file, 'r')
-        data = archive.read('SOFTSTRT.XML')
-    else:
-        f = open(start_list_file, 'r', encoding='windows-1252')
-        data = f.read()
-
-    start_list = ElementTree.fromstring(data)
-
-    if start_list.tag != '{http://www.orienteering.org/datastandard/3.0}StartList':
-        raise ValueError('Start List File is not a valid IOFv3 Start List.')
-
-    ns = {'ns': 'http://www.orienteering.org/datastandard/3.0'}
-
-    event_id = _get_data(start_list, 'ns:Event/ns:Id', ns)
-    event_name = _get_data(start_list, 'ns:Event/ns:Name', ns)
-    event_date = _get_data(start_list, 'ns:Event/ns:StartTime/ns:Date', ns)
-    organiser_id = _get_data(start_list, 'ns:Event/ns:Organiser/ns:Id', ns)
-    organiser_name = _get_data(start_list, 'ns:Event/ns:Organiser/ns:Name', ns)
-
-    logging.getLogger(LOGGER_NAME).debug('_read_start_list - Event: %s (%s) %s',
-                                         str(event_name), str(event_id), str(event_date))
-    logging.getLogger(LOGGER_NAME).debug('_read_start_list - Organiser: %s (%s)',
-                                         str(organiser_name), str(organiser_id))
-
-    team_names = dict()
-    teams = dict()
-    runners = dict()
-
-    xml_teams = start_list.findall('ns:ClassStart/ns:TeamStart', ns)
-    for xml_team in xml_teams:
-        team_name = _get_data(xml_team, 'ns:Name', ns)
-        team_bib_number = _get_data(xml_team, 'ns:BibNumber', ns)
-        team_names[team_bib_number] = team_name
-
-        team = dict()
-        team_members = xml_team.findall('ns:TeamMemberStart', ns)
-        for team_member in team_members:
-            team_member_id = _get_data(team_member, 'ns:Person/ns:Id', ns)
-            team_member_name_family = _get_data(team_member, 'ns:Person/ns:Name/ns:Family', ns)
-            team_member_name_given = _get_data(team_member, 'ns:Person/ns:Name/ns:Given', ns)
-            team_member_leg = _get_data(team_member, 'ns:Start/ns:Leg', ns)
-            team_member_leg_order = _get_data(team_member, 'ns:Start/ns:LegOrder', ns)
-            team_member_bib_number = _get_data(team_member, 'ns:Start/ns:BibNumber', ns)
-            team_member_control_card = _get_data(team_member, 'ns:Start/ns:ControlCard', ns)
-            if team_member_control_card is not None:
-                runners[team_member_control_card] = {'id': team_member_id,
-                                                     'family': team_member_name_family,
-                                                     'given': team_member_name_given,
-                                                     'leg': team_member_leg,
-                                                     'leg_order': team_member_leg_order,
-                                                     'team_bib_number': team_bib_number,
-                                                     'bib_number': team_member_bib_number,
-                                                     'control_card': team_member_control_card}
-                if team_member_leg not in team:
-                    team[team_member_leg] = dict()
-                leg = team[team_member_leg]
-                leg[team_member_leg_order] = runners[team_member_control_card]
-
-        team = natsorted(team.items())
-        teams[team_bib_number] = team
-    # for leg in team.items():
-    # 	for subleg in leg:
-    #
-
-    team_names = natsorted(team_names.items())
-    teams = natsorted(teams.items())
-
-    logging.getLogger(LOGGER_NAME).debug('_read_start_list - Teams: %s', str(team_names))
-    logging.getLogger(LOGGER_NAME).debug('_read_start_list - Runners: %s', str(runners))
-
-    return team_names, teams, runners
-
-
-def _verify_start_list_file(start_list_file: Path):
-    try:
-        if start_list_file is None:
-            raise ValueError('Start List File must be configured.')
-
-        if not start_list_file.is_absolute():
-            start_list_file = DEFAULT_START_LIST_FILE_FOLDER / start_list_file
-
-        (team_names, teams, runners) = _read_start_list(start_list_file=start_list_file.as_posix())
-
-        if len(team_names) == 0:
-            return VerificationResult(message='No Teams in the Start List File.')
-
-        return VerificationResult(message=f'{len(team_names)} Teams in the Start List File.')
-    except Exception as e:
-        logging.getLogger(LOGGER_NAME).debug('_verify_start_list_file: %s', e)
-        return VerificationResult(message=str(e), status=False)
-
-
 class StartListSourceUrl(_StartListSourceBase):
     """
-    A Start List Source that reads the start list from a file and monitors it for changes.
+    A Start List Source that reads an IOF XML v3 start list repeatedly from a URL.
     """
 
     name = __qualname__
@@ -171,15 +43,16 @@ class StartListSourceUrl(_StartListSourceBase):
                   '<a href="https://orienteering.sport/iof/it/data-standard-3-0/">IOF 3.0 Data Standard</a> ' \
                   'and uses it to look up the team bib number and relay leg. ' \
                   'Files generated by <a href="https://www.svenskorientering.se/Arrangera/itochtavlings-' \
-                  'administration/OLAtidtagnings-program/">OLA</a> and ' \
-                  '<a href="https://sportsoftware.de/orienteering/os">OS2010</a> have been tested.' \
-                  'The file will be monitored and re-read if it changes.'
+                  'administration/OLAtidtagnings-program/">OLA</a>, ' \
+                  '<a href="https://sportsoftware.de/orienteering/os">OS2010</a> and '\
+                  '<a href="https://www.melin.nu/meos/">MeOS</a> have been tested.' \
+                  'The URL will be re-fetched with a configurable interval.'
 
     CONFIG_OPTION_START_LIST_URL = ConfigOptionDefinition(
         name='StartListUrl',
         display_name='Start List URL',
         value_type=str,
-        description='The path on the file system where the start list file is located.',
+        description='The URL that will return the start list.',
         mandatory=True,
         validator=is_url,
     )
@@ -188,18 +61,9 @@ class StartListSourceUrl(_StartListSourceBase):
         name='StartListReloadInterval',
         display_name='Start List Reload interval (minutes)',
         value_type=int,
-        description='The path on the file system where the start list file is located.',
+        description='The interval with which the start list will be re-fetched from the URL.',
         mandatory=True,
         default_value=5,
-    )
-
-    CONFIG_OPTION_START_LIST_UPDATE_SOUND_FILE = ConfigOptionDefinition(
-        name='StartListUpdateSoundFile',
-        display_name='Start List Update Sound',
-        value_type=Path,
-        description='The path to the sound file to use when the start list is updated.',
-        default_value=Path('half_ding.mp3'),
-        valid_values_gen=SoundFolder().get_all_sounds,
     )
 
     START_LIST_SOURCE_URL_CONFIG_SECTION_DEFINITION = ConfigSectionDefinition(
@@ -208,27 +72,10 @@ class StartListSourceUrl(_StartListSourceBase):
         option_definitions=[
             CONFIG_OPTION_START_LIST_URL,
             CONFIG_OPTION_START_LIST_RELOAD_INTERVAL,
-            CONFIG_OPTION_START_LIST_UPDATE_SOUND_FILE,
         ],
         enable_type=ConfigSectionEnableType.IF_ENABLED,
-        sort_key_prefix=40,
+        sort_key_prefix=50,
     )
-
-    #CONFIG_OPTION_START_LIST_URL.set_verifier(START_LIST_SOURCE_FILE_START_LIST_FILE_VERIFIER)
-
-    START_LIST_SOURCE_FILE_CONFIG_SECTION_START_LIST_UPDATE_SOUND_VERIFIER = ConfigVerifierDefinition(
-        function=verify_sound,
-        parameters=[
-            ConfigSectionOptionDefinition(
-                section_name=name,
-                option_definition=CONFIG_OPTION_START_LIST_UPDATE_SOUND_FILE,
-            ),
-        ],
-        message='The selected sound could not be played.',
-    )
-
-    CONFIG_OPTION_START_LIST_UPDATE_SOUND_FILE.set_verifier(
-        START_LIST_SOURCE_FILE_CONFIG_SECTION_START_LIST_UPDATE_SOUND_VERIFIER)
 
     Config.register_config_section_definition(START_LIST_SOURCE_URL_CONFIG_SECTION_DEFINITION)
 
@@ -239,15 +86,12 @@ class StartListSourceUrl(_StartListSourceBase):
     def __repr__(self) -> str:
         return f'StartListSourceUrl(running={self._running},' \
                f' start_list_url={self.start_list_url},' \
-               f' start_list_reload_interval={self.start_list_reload_interval},' \
-               f' start_list_update_sound_file={self.start_list_update_sound_file})'
+               f' start_list_reload_interval={self.start_list_reload_interval})'
 
     def __str__(self) -> str:
         return repr(self)
 
     def __init__(self):
-        self.observer = None
-
         if LOGGER_NAME != self.__class__.__name__:
             raise ValueError('LOGGER_NAME not correct: {} vs {}'.format(LOGGER_NAME, self.__class__.__name__))
 
@@ -257,7 +101,6 @@ class StartListSourceUrl(_StartListSourceBase):
 
         self.start_list_url = None
         self.start_list_reload_interval = 5
-        self.start_list_update_sound_file = None
 
         self.team_names = dict()
         self.teams = dict()
@@ -265,23 +108,22 @@ class StartListSourceUrl(_StartListSourceBase):
 
         self._running = False
 
+        self.update()
         self.logger.debug(self)
 
-        #self.observer = Observer()
-        #self.observer.name = 'StartListFileObserverThread'
+        self.start_list_fetcher = Thread(target=self._read_start_list, daemon=True, name='StartListUrlFetcherThread')
 
     def __del__(self):
         self.stop()
 
     def start(self):
         self._running = True
-        self.update()
+        self.start_list_fetcher.start()
 
     def stop(self):
         self._running = False
-        #if self.observer.is_alive():
-        #    self.observer.stop()
-        #    self.observer.join()
+        if self.start_list_fetcher.is_alive():
+            self.start_list_fetcher.join()
 
     def is_running(self) -> bool:
         return self._running
@@ -306,88 +148,109 @@ class StartListSourceUrl(_StartListSourceBase):
     def _parse_config(self):
         config_section = Config().get_section(self.name)
 
-        self.observer.unschedule_all()
-
         self.start_list_url = self.CONFIG_OPTION_START_LIST_URL.get_value(config_section)
-
-        self.start_list_update_sound_file = self.CONFIG_OPTION_START_LIST_UPDATE_SOUND_FILE.get_value(config_section)
-
-        self.observer.schedule(event_handler=self, path=self.start_list_file.parent.as_posix())
-        if self._running and not self.observer.is_alive():
-            self.observer.start()
+        self.start_list_reload_interval = self.CONFIG_OPTION_START_LIST_RELOAD_INTERVAL.get_value(config_section)
 
     def _read_start_list(self):
-        response = requests.get(self.start_list_url)
+        self.logger.debug('Started')
 
-        start_list = ElementTree.fromstring(response.text)
+        while self._running:
+            url = URL(self.start_list_url)
+            req = Request(url.url)
 
-        if start_list.tag != '{http://www.orienteering.org/datastandard/3.0}StartList':
-            self.logger.error('The Start List URL (%s) doesn\'t return a valid IOFv3 Start List.',
-                              self.start_list_url)
-            raise ValueError('The Start List URL ({}) doesn\'t return a valid IOFv3 Start List.'.format(
-                self.start_list_url))
+            self.logger.debug('Url is %s', url.url)
 
-        ns = {'ns': 'http://www.orienteering.org/datastandard/3.0'}
+            try:
+                response = urlopen(req)
+                response_encoding = response.info().get_content_charset()
+                if response_encoding is None:
+                    response_encoding = DEFAULT_RESPONSE_ENCODING
 
-        event_id = _get_data(start_list, 'ns:Event/ns:Id', ns)
-        event_name = _get_data(start_list, 'ns:Event/ns:Name', ns)
-        event_date = _get_data(start_list, 'ns:Event/ns:StartTime/ns:Date', ns)
-        organiser_id = _get_data(start_list, 'ns:Event/ns:Organiser/ns:Id', ns)
-        organiser_name = _get_data(start_list, 'ns:Event/ns:Organiser/ns:Name', ns)
+                data = response.read().decode(response_encoding)
+            except HTTPError as e:
+                logging.getLogger(LOGGER_NAME).error(
+                    '_read_start_list: The server could not fulfill the request. Error code: %s', e.code)
+                raise
+            except URLError as e:
+                logging.getLogger(LOGGER_NAME).error(
+                    '_read_start_list: We failed to reach a server. Reason: %s', e.reason)
+                raise
+            except Exception as e:
+                logging.getLogger(LOGGER_NAME).error('_read_start_list: Unknown Exception. %s', e)
+                raise
 
-        if event_date is not None:
-            self.competition_date = event_date
+            start_list = ElementTree.fromstring(data)
 
-        self.logger.debug('Event: %s (%s) %s', str(event_name), str(event_id), str(event_date))
-        self.logger.debug('Organiser: %s (%s)', str(organiser_name), str(organiser_id))
+            if start_list.tag != '{http://www.orienteering.org/datastandard/3.0}StartList':
+                self.logger.error('The Start List URL (%s) doesn\'t return a valid IOFv3 Start List.',
+                                  self.start_list_url)
+                raise ValueError('The Start List URL ({}) doesn\'t return a valid IOFv3 Start List.'.format(
+                    self.start_list_url))
 
-        self.team_names.clear()
-        self.teams.clear()
-        self.runners.clear()
+            ns = {'ns': 'http://www.orienteering.org/datastandard/3.0'}
 
-        xml_teams = start_list.findall('ns:ClassStart/ns:TeamStart', ns)
-        for xml_team in xml_teams:
-            team_name = _get_data(xml_team, 'ns:Name', ns)
-            team_bib_number = _get_data(xml_team, 'ns:BibNumber', ns)
-            self.team_names[team_bib_number] = team_name
+            event_id = _get_data(start_list, 'ns:Event/ns:Id', ns)
+            event_name = _get_data(start_list, 'ns:Event/ns:Name', ns)
+            event_date = _get_data(start_list, 'ns:Event/ns:StartTime/ns:Date', ns)
+            organiser_id = _get_data(start_list, 'ns:Event/ns:Organiser/ns:Id', ns)
+            organiser_name = _get_data(start_list, 'ns:Event/ns:Organiser/ns:Name', ns)
 
-            team = dict()
-            team_members = xml_team.findall('ns:TeamMemberStart', ns)
-            for team_member in team_members:
-                team_member_id = _get_data(team_member, 'ns:Person/ns:Id', ns)
-                team_member_name_family = _get_data(team_member, 'ns:Person/ns:Name/ns:Family', ns)
-                team_member_name_given = _get_data(team_member, 'ns:Person/ns:Name/ns:Given', ns)
-                team_member_leg = _get_data(team_member, 'ns:Start/ns:Leg', ns)
-                team_member_leg_order = _get_data(team_member, 'ns:Start/ns:LegOrder', ns)
-                team_member_bib_number = _get_data(team_member, 'ns:Start/ns:BibNumber', ns)
-                team_member_control_card = _get_data(team_member, 'ns:Start/ns:ControlCard', ns)
-                if team_member_control_card is not None:
-                    self.runners[team_member_control_card] = {'id': team_member_id,
-                                                              'family': team_member_name_family,
-                                                              'given': team_member_name_given,
-                                                              'leg': team_member_leg,
-                                                              'leg_order': team_member_leg_order,
-                                                              'team_bib_number': team_bib_number,
-                                                              'bib_number': team_member_bib_number,
-                                                              'control_card': team_member_control_card}
-                    if team_member_leg not in team:
-                        team[team_member_leg] = dict()
-                    leg = team[team_member_leg]
-                    leg[team_member_leg_order] = self.runners[team_member_control_card]
+            if event_date is not None:
+                self.competition_date = event_date
 
-            team = natsorted(team.items())
-            self.teams[team_bib_number] = team
-        # for leg in team.items():
-        # 	for subleg in leg:
-        #
+            self.logger.debug('Event: %s (%s) %s', str(event_name), str(event_id), str(event_date))
+            self.logger.debug('Organiser: %s (%s)', str(organiser_name), str(organiser_id))
 
-        self.team_names = natsorted(self.team_names.items())
-        self.teams = natsorted(self.teams.items())
-        # self.start_list_file_time = stat(self.add_path(self.start_list_file)).st_mtime
-        self.logger.debug('Teams: %s', str(self.team_names))
-        self.logger.debug('Runners: %s', str(self.runners))
+            self.team_names.clear()
+            self.teams.clear()
+            self.runners.clear()
 
-        Sound.play(self.start_list_update_sound_file)
+            xml_teams = start_list.findall('ns:ClassStart/ns:TeamStart', ns)
+            for xml_team in xml_teams:
+                team_name = _get_data(xml_team, 'ns:Name', ns)
+                team_bib_number = _get_data(xml_team, 'ns:BibNumber', ns)
+                self.team_names[team_bib_number] = team_name
+
+                team = dict()
+                team_members = xml_team.findall('ns:TeamMemberStart', ns)
+                for team_member in team_members:
+                    team_member_id = _get_data(team_member, 'ns:Person/ns:Id', ns)
+                    team_member_name_family = _get_data(team_member, 'ns:Person/ns:Name/ns:Family', ns)
+                    team_member_name_given = _get_data(team_member, 'ns:Person/ns:Name/ns:Given', ns)
+                    team_member_leg = _get_data(team_member, 'ns:Start/ns:Leg', ns)
+                    team_member_leg_order = _get_data(team_member, 'ns:Start/ns:LegOrder', ns)
+                    team_member_bib_number = _get_data(team_member, 'ns:Start/ns:BibNumber', ns)
+                    team_member_control_card = _get_data(team_member, 'ns:Start/ns:ControlCard', ns)
+                    if team_member_control_card is not None:
+                        self.runners[team_member_control_card] = {'id': team_member_id,
+                                                                  'family': team_member_name_family,
+                                                                  'given': team_member_name_given,
+                                                                  'leg': team_member_leg,
+                                                                  'leg_order': team_member_leg_order,
+                                                                  'team_bib_number': team_bib_number,
+                                                                  'bib_number': team_member_bib_number,
+                                                                  'control_card': team_member_control_card}
+                        if team_member_leg not in team:
+                            team[team_member_leg] = dict()
+                        leg = team[team_member_leg]
+                        leg[team_member_leg_order] = self.runners[team_member_control_card]
+
+                team = natsorted(team.items())
+                self.teams[team_bib_number] = team
+            # for leg in team.items():
+            # 	for subleg in leg:
+            #
+
+            self.team_names = dict(natsorted(self.team_names.items()))
+            self.teams = dict(natsorted(self.teams.items()))
+            # self.start_list_file_time = stat(self.add_path(self.start_list_file)).st_mtime
+            self.logger.debug('Teams: %s', str(self.team_names))
+            self.logger.debug('Runners: %s', str(self.runners))
+
+            self.logger.debug('Sleeping for %s minutes', str(self.start_list_reload_interval))
+            sleep(self.start_list_reload_interval*60)
+
+        self.logger.debug('Stopped')
 
     def lookup_from_card_number(self, card_number: str) -> Dict[str, str] or None:
         """Returns Bib-Number and Relay Leg for the provided Card Number.

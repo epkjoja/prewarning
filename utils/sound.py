@@ -172,9 +172,19 @@ class Sound(ConfigConsumer, Singleton, metaclass=_SoundMeta):
 
     def _run_cmd(self, cmd: List[str]) -> int:
         self.logger.debug('_run_cmd(%s)', cmd)
-        si = subprocess.STARTUPINFO()
-        si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
-        result = run(cmd, capture_output=True, text=True, startupinfo=si)
+
+        if os.name == 'nt':  # Windows
+            self.logger.debug('_run_cmd(%s) Windows', cmd)
+            si = subprocess.STARTUPINFO()
+            si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+            result = run(cmd, capture_output=True, text=True, startupinfo=si)
+        elif os.name == 'posix':  # Linux or Mac
+            self.logger.debug('_run_cmd(%s) Linux or Mac', cmd)
+            result = run(cmd, capture_output=True, text=True)
+        else:
+            self.logger.debug('_run_cmd(%s) Unknown OS!', cmd)
+            return 0
+
         self.logger.debug('_run_cmd(%s) -> %d', cmd, result.returncode)
         if result.stdout:
             self.logger.debug('_run_cmd(%s) stdout: %s', cmd, result.stdout)
@@ -308,9 +318,10 @@ class Sound(ConfigConsumer, Singleton, metaclass=_SoundMeta):
 
 
 def verify_sound(sound: str):
+    logging.getLogger(LOGGER_NAME).debug('verify_sound: %s', sound)
     try:
         Sound.play(sound, True)
         return True
     except Exception as e:
-        logging.getLogger(LOGGER_NAME).debug('verify_sound: %s', e)
+        logging.getLogger(LOGGER_NAME).debug('verify_sound - error: %s', e)
         return False
